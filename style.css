@@ -15,3 +15,8 @@
 #read-btn{
     background-color: var(--softRed);
 }
+
+.side-heading-text {
+    color: var(--grayishBlue);
+    font-size: 14px;
+}
