@@ -16,6 +16,10 @@
     background-color: var(--softRed);
 }
 
+.side-title {
+    color: var(--softOrange);
+}
+
 .side-heading-text {
     color: var(--grayishBlue);
     font-size: 14px;
