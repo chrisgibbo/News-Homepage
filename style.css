@@ -11,3 +11,7 @@
     --darkGrayishBlue: hsl(236, 13%, 42%);
     --veryDarkBlue: hsl(240, 100%, 5%);
 }
+
+#read-btn{
+    background-color: var(--softRed);
+}
