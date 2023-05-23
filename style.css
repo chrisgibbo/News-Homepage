@@ -24,3 +24,7 @@
     color: var(--grayishBlue);
     font-size: 14px;
 }
+
+.img-num {
+    color: var(--grayishBlue);
+}
