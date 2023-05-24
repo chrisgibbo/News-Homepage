@@ -28,3 +28,8 @@
 .img-num {
     color: var(--grayishBlue);
 }
+
+.link:hover{
+    color: var(--softRed);
+    cursor: pointer;
+}
