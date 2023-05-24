@@ -33,3 +33,9 @@
     color: var(--softRed);
     cursor: pointer;
 }
+
+.side-menu-link:hover{
+    color: var(--softOrange);
+    cursor: pointer;
+}
+
