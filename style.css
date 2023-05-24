@@ -16,6 +16,10 @@
     background-color: var(--softRed);
 }
 
+#read-btn:hover{
+    background-color: var(--veryDarkBlue);
+}
+
 .side-title {
     color: var(--softOrange);
 }
