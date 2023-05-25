@@ -5,10 +5,12 @@ const backGround = document.querySelector(".background")
 
 openMenuBtn.addEventListener("click", () => {
     mobileMenu.classList.toggle("hidden")
+    document.querySelector(".background").style.opacity = "0.4";
 })
 
 closeMenuBtn.addEventListener("click", () => {
     mobileMenu.classList.toggle("hidden")
+    document.querySelector(".background").style.opacity = "1";
 })
 
 
