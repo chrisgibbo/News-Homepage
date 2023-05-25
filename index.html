@@ -13,7 +13,7 @@
 
     <!-- navbar section -->
     
-    <nav class="flex flex-wrap justify-between items-center mb-14 max-lg:mb-8">
+    <nav class="flex justify-between items-center mb-14 max-lg:mb-8">
         <img src="images/logo.svg" alt="company-logo">
         <ul class="flex space-x-10 max-lg:hidden">
             <a class="link" href="#">Home</a>
@@ -21,8 +21,20 @@
             <a class="link" href="#">Popular</a>
             <a class="link" href="#">Trending</a>
             <a class="link" href="#">Categories</a>
-        </ul>            
-        <img class="lg:hidden" src="images/icon-menu.svg" alt="">
+        </ul>     
+        <img class="lg:hidden cursor-pointer" id="menu-open" src="images/icon-menu.svg" alt="">
+
+        <!-- mobile menu section -->
+
+        <div class="">
+            <ul class="flex flex-col bg-white absolute h-screen right-0 top-0 w-4/6">
+                <a href="#">Home</a>
+                <a href="#">New</a>
+                <a href="#">Popular</a>
+                <a href="#">Trending</a>
+                <a href="#">Categories</a>
+            </ul>
+        </div>
     </nav>
 
     <!-- Heading + news section -->
@@ -35,7 +47,7 @@
                 <div>
                     <h1 class="text-5xl font-bold max-lg:mb-4 max-lg:pr-4">The Bright Future of Web 3.0?</h1>
                 </div>
-                <div class="ml-24 relative max-lg:m-0">
+                <div class="ml-24 relative max-lg:static max-lg:m-0">
                     <p class="text-sm leading-6 text-left pr-7 max-lg:mb-6">
                         We dive into the next evolution of the web 
                         that claims to put the power of the platforms back
