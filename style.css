@@ -34,6 +34,10 @@
     font-size: 14px;
 }
 
+.darkGrey-Text {
+    color: var(--darkGrayishBlue);
+}
+
 .img-num {
     color: var(--grayishBlue);
 }
